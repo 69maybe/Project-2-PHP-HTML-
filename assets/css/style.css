@@ -81,13 +81,54 @@ main {
     margin-bottom: 2rem;
     text-align: center;
     padding: 1rem;
-    background-color: #e8f5e9;
     border-radius: 5px;
+}
+
+.status-message.status-success {
+    background-color: #e8f5e9;
+}
+
+.status-message.status-failed {
+    background-color: #ffebee;
+}
+
+.status-message.status-not-configured {
+    background-color: #fff3e0;
 }
 
 #db-status {
     font-weight: bold;
+}
+
+.status-success #db-status {
     color: #27ae60;
+}
+
+.status-failed #db-status {
+    color: #e74c3c;
+}
+
+.status-not-configured #db-status {
+    color: #f39c12;
+}
+
+.warning-box {
+    background-color: #fff3e0;
+    border-left: 4px solid #f39c12;
+    margin-top: 1rem;
+}
+
+.warning-box h3 {
+    color: #e67e22;
+    margin-bottom: 1rem;
+}
+
+.warning-box code {
+    background-color: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: 'Courier New', monospace;
+    color: #e67e22;
 }
 
 .info-box {
