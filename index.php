@@ -27,7 +27,7 @@ if (!isDatabaseConfigured()) {
 
 <main class="main-content">
     <div class="container">
-        <h1 class="main-title">Thi Thứ Năm - Ca 4 - Lê Hoàng Huy</h1>
+        <h1 class="main-title">Thi Thứ Năm - Ca 4 - Lê Hoàng Huy hello</h1>
         <p class="status-message status-<?php echo $connectionClass; ?>">Database Status: <span id="db-status"><?php echo htmlspecialchars($connectionStatus); ?></span></p>
         <?php if (!isDatabaseConfigured()): ?>
         <div class="info-box warning-box">
